@@ -1,0 +1,268 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Baloo Chettan2', cursive;
+}
+/*header*/
+header{
+	background-image: linear-gradient(to right top,rgba(2,33,64,0.2) 40%,rgba(45,95,56,0.3)), url(/fontendUser/img/bgHead.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	margin-bottom: 10%;
+}
+header .button{
+	text-align: right;
+	font-size: 25px;
+}
+header ul{
+	list-style: none;
+	text-align: center;
+	display: flex;
+	justify-content:space-around;
+	padding: 10px;
+}
+header ul li{
+	display: inline-block;
+	border-radius: 25px;
+	padding: 10px;
+}
+header ul li a{
+	text-decoration: none;
+	color: white;
+}
+header .button{
+	display: none;
+}
+header #check{
+	display: none;
+}
+input:checked + #menu{
+	display: block;
+}
+/*moblie*/
+@media (max-width: 768px){
+	header .button{
+		display: block;
+	}
+	header #menu{
+		display: none;
+	}
+}
+
+/*header*/
+
+/*main*/
+main{
+	margin-top: 7%;
+}
+	/*modal*/
+main .button-form{
+	margin-top: 10%;
+}
+	/*modal*/
+	/*icon*/
+main .icon{
+	text-align: center;
+}
+main .icon a{
+	display: inline-block;
+	font-size: 45px;
+	color: #efed4ca1;
+	margin-top: 3%;
+	transition: all 0.5s  0.3s;
+}
+main .icon a:hover{
+	font-size: 80px;
+	color: pink;
+}
+	/*icon*/
+
+	/*title*/
+main .title{
+	margin-top: 5%;
+}
+main .title .title-main{
+	text-align: center;
+}
+	/*title*/
+
+	/*brief-introduction*/
+main .brief-introduction{
+	margin-top: 5%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+	/*brief-introduction*/
+
+	/*images-introduction*/
+main .images-introduction{
+	margin-top: 3%;
+}
+
+main .images-introduction .images-move{
+	padding: 0px;
+}
+main .images-introduction .card-image{
+	margin-top: 1%;
+	display: flex;
+	justify-content: space-around;
+}
+main .images-introduction .card-image .card{
+	padding: 1%;
+}
+	/*images-introduction*/
+
+	/*demo-food*/
+main .demo-food{
+	margin-top: 5%;
+	margin-bottom: 1%;
+}
+main .demo-food .title-demo-food{
+	text-align: center;
+	display: flex;
+    justify-content:space-evenly;
+}
+main .demo-food .main-demo-food{
+	margin-top: 2%;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+}
+main .demo-food .main-demo-food .items{
+	margin-top: 1%;
+	padding: 1%;
+}
+main .demo-food .btn-demo-food{
+	margin-top: 2%;
+	padding: 1%;		
+	display: flex;
+	justify-content: space-around;
+}
+	/*demo-food*/
+
+	/*login email*/
+main .login-email{
+	background-color: #0000008f;
+	color: white;
+	padding: 20px;
+}
+main .login-email .title-email{
+	text-align: center;
+	padding: 1%;
+}
+main .login-email form{
+	padding: 1%;
+	display: flex;
+	justify-content: center;
+}
+	/*login email*/
+
+	/*intro*/
+main .introphoto .imgintro{
+	display: flex;
+	justify-content: space-around;
+}
+main .introphoto .imgintro img{
+	margin: 1%;
+}
+main .introphoto .title-intro{
+	text-align: center;
+}
+	/*intro*/
+
+	/*dish*/
+main .dish .btn-group{
+	display: flex;
+	justify-content: space-around;
+}
+	/*dish*/
+
+	/*news*/
+main .news .newsitem{
+	margin-top: 1%;
+	padding: 1%;
+}
+main .news .newsitem .items{
+	padding: 1%;
+}
+	/*news*/
+	/*contact*/
+main .map{
+	padding: 2%;
+}
+main .map iframe{
+	border:0;
+}
+main .contact{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 1%;
+}
+main .contact .contactitems{
+	margin-bottom: 1%;
+	padding: 1%;
+	border-radius: 5%;
+}
+main .sendinformation{
+	margin-bottom: 1%;
+}
+main .sendinformation h2{
+	text-align: center;
+}
+main .sendinformation h6{
+	text-align: center;
+}
+main .sendinformation form{
+	padding: 1%;
+	margin: 1%;
+}
+
+	/*contact*/
+
+/*main*/
+
+
+
+/*footer*/
+footer #button-back-top{
+	width: 50px;
+	height: 50px;
+	background-color: tomato;
+	border-radius: 50%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	right: 20px;
+	bottom: 40px;
+}
+footer .footer{
+	color: white;
+	background-color: #21130096;
+	padding: 2%;
+	display: flex;
+	justify-content: space-around;
+}
+footer .footer .col-md-3{
+	border-radius: 15px;
+	padding: 2%;
+	background-color: #21130030;
+	text-align: center;
+}
+footer .footer .col-md-3 ul li{
+	list-style: none;
+	padding: 2%;
+}
+
+/*footer*/

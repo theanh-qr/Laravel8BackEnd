@@ -1,0 +1,18 @@
+/* Css dành cho phân trang */
+.paginationWrap svg{
+    height: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.paginationWrap div{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/* Css cho nút upload trong product add */
+.btnUpload{
+    float: right;
+    position: relative;
+    bottom: 39px;
+
+}
